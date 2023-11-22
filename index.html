@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <title>Tailwind-Module-4</title>
+</head>
+<body class="bg-[#D9EAFD]">
+    <div class="dark:bg-slate-900 dark:text-white pb-8 text-sm">
+        <div class="w-full flex justify-center py-8">
+            <button id="theme-toggle" class="p-2 rounded-full text-[#FFFFFF] bg-slate-900 dark:text-slate-900 bg-[#000000]"
+                >Toggle theme
+            </button>
+        </div>
+        <div class="w-[22rem] bg-[#F7F7F7] dark:bg-[#000000] rounded-t-lg px-4 dark:bg-slate-900 mx-auto flex justify-center items-center py-4 ">
+            <div class="flex gap-16 items-center">
+                <div class="bg-[#FFFF] rounded-full p-2 px-2">
+                    <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg>        
+                </div>
+                <div class="bg-[#FFFF] rounded-full py-2 px-2 gap-1 flex w-32">
+                        <p class="text-xs pl-2 dark:text-[#000000]">Take the Quiz</p>
+                    <div class="bg-[#151515] rounded-full p-1 ">
+                        <svg class="h-3 w-3" src="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M13.0605 8.11073L14.4747 9.52494C17.2084 12.2586 17.2084 16.6908 14.4747 19.4244L14.1211 19.778C11.3875 22.5117 6.95531 22.5117 4.22164 19.778C1.48797 17.0443 1.48797 12.6122 4.22164 9.87849L5.63585 11.2927C3.68323 13.2453 3.68323 16.4112 5.63585 18.3638C7.58847 20.3164 10.7543 20.3164 12.7069 18.3638L13.0605 18.0102C15.0131 16.0576 15.0131 12.8918 13.0605 10.9392L11.6463 9.52494L13.0605 8.11073ZM19.778 14.1211L18.3638 12.7069C20.3164 10.7543 20.3164 7.58847 18.3638 5.63585C16.4112 3.68323 13.2453 3.68323 11.2927 5.63585L10.9392 5.98941C8.98653 7.94203 8.98653 11.1079 10.9392 13.0605L12.3534 14.4747L10.9392 15.8889L9.52494 14.4747C6.79127 11.741 6.79127 7.30886 9.52494 4.57519L9.87849 4.22164C12.6122 1.48797 17.0443 1.48797 19.778 4.22164C22.5117 6.95531 22.5117 11.3875 19.778 14.1211Z"></path></svg>
+                    </div>
+                </div>
+                <div class="bg-[#FFFF] rounded-full p-2 px-2">
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM7 12H9C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12H17C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12Z"></path></svg>     
+                </div>
+            </div>
+        </div>
+        <div class="w-[22rem] bg-[#F7F7F7]  dark:bg-[#222222]  mx-auto px-2 py-4 flex justify-center items-center">
+            <h1 class="text-6xl">Simplify your health 
+                <span>
+                    <div class="w-14 h-14 inline-block align-middle rotate-[30deg]">
+                        <svg viewBox="0 0 35.4113 67.2004" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
+                        <rect x="0.255737" y="0.52829" width="35.4113" height="67.2004" rx="17.7057" fill="#D9EAFD"/>
+                        </svg>
+                    </div>
+                </span>and wellbeing. 
+                <span>
+                    <div class="w-14 h-14 inline-block align-middle">
+                        <svg viewBox="0 0 70.7011 70.7011" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
+                            <rect x="0.61084" y="30.7361" width="70.7011" height="9.79788" rx="4.89894" fill="#FEF189"/>
+                            <rect x="40.8604" y="0.533691" width="70.7011" height="9.79788" rx="4.89894" transform="rotate(90 40.8604 0.533691)" fill="#FEF189"/>
+                            <rect x="15.977" y="15.8999" width="39.9687" height="39.9687" rx="19.9844" fill="#FEF189"/>
+                        </svg>
+                    </div>
+                </span>
+            </h1>
+        </div>
+        <div class="w-[22rem] bg-[#F7F7F7] dark:bg-[#525252]  mx-auto px-2 py-4 flex justify-center items-center">
+            <div class="bg-[#FFFF] dark:bg-[#222222] rounded-xl w-[20rem]">
+                <div class="flex gap-16 items-center">
+                    <div class="flex gap-2 py-4 pl-2 items-center">
+                        <div class="bg-[#FFFF] dark:bg-[#222222] border border-gray rounded-full w-20 items-center text-center h-8">
+                            <button class="pt-1">About</button>
+                        </div>
+                        <div class="border border-gray rounded-full p-2">
+                            <svg class="h-4 w-4 dark:fill-white" src="http://www.w3.org/2000/svg" viewBox="0 0 24 24" ><path d="M13.0605 8.11073L14.4747 9.52494C17.2084 12.2586 17.2084 16.6908 14.4747 19.4244L14.1211 19.778C11.3875 22.5117 6.95531 22.5117 4.22164 19.778C1.48797 17.0443 1.48797 12.6122 4.22164 9.87849L5.63585 11.2927C3.68323 13.2453 3.68323 16.4112 5.63585 18.3638C7.58847 20.3164 10.7543 20.3164 12.7069 18.3638L13.0605 18.0102C15.0131 16.0576 15.0131 12.8918 13.0605 10.9392L11.6463 9.52494L13.0605 8.11073ZM19.778 14.1211L18.3638 12.7069C20.3164 10.7543 20.3164 7.58847 18.3638 5.63585C16.4112 3.68323 13.2453 3.68323 11.2927 5.63585L10.9392 5.98941C8.98653 7.94203 8.98653 11.1079 10.9392 13.0605L12.3534 14.4747L10.9392 15.8889L9.52494 14.4747C6.79127 11.741 6.79127 7.30886 9.52494 4.57519L9.87849 4.22164C12.6122 1.48797 17.0443 1.48797 19.778 4.22164C22.5117 6.95531 22.5117 11.3875 19.778 14.1211Z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="">
+                        <svg class="ml-[5.5rem] h-8 w-8 dark:fill-white" fill="lightgray" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 11V7H13V11H17V13H13V17H11V13H7V11H11ZM12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20Z"></path></svg>                    </div>
+                    </div>
+                    <p class="pl-2 py-2 pb-8">Receive daily packs personnalized <br> to your <strong>unique health needs.</strong></p>
+                    <div class="h-52 w-80 rounded-b-2xl bg-[url('maddi-bazzocco-pgVT_CvjsGE-unsplash.jpg')] bg-cover">
+                        <div class="pt-[9.5rem] px-1">
+                            <div class="flex bg-white dark:bg-[#000000] w-[8.5rem] rounded-full py-2 justify-center gap-2">
+                                <div class="rounded-full border p-2 bottom-0 bg-white dark:border-[#FFFFFF]">
+                                    <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.0049 16.941V19.0029H18.0049V21.0029H6.00488V19.0029H11.0049V16.941C7.05857 16.4489 4.00488 13.0825 4.00488 9.00293V3.00293H20.0049V9.00293C20.0049 13.0825 16.9512 16.4489 13.0049 16.941ZM6.00488 5.00293V9.00293C6.00488 12.3166 8.69117 15.0029 12.0049 15.0029C15.3186 15.0029 18.0049 12.3166 18.0049 9.00293V5.00293H6.00488ZM1.00488 5.00293H3.00488V9.00293H1.00488V5.00293ZM21.0049 5.00293H23.0049V9.00293H21.0049V5.00293Z"></path></svg>
+                                </div>
+                                <div class="rounded-full border p-2 bg-white dark:border-[#FFFFFF]">
+                                    <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.5605 12.0975L21.092 14.7501C22.0585 16.4241 21.4849 18.5647 19.8109 19.5312C19.2788 19.8384 18.6753 20.0001 18.0609 20.0001L15.9985 19.9995L15.9987 22.5001L10.9987 19.0001L15.9987 15.5001L15.9985 17.9995L18.0609 18.0001C18.3242 18.0001 18.5829 17.9308 18.8109 17.7991C19.5283 17.3849 19.7742 16.4675 19.3599 15.7501L17.8285 13.0975L19.5605 12.0975ZM7.30257 9.13407L7.83366 15.2142L5.66848 13.9635L4.63751 15.7501C4.50586 15.9781 4.43655 16.2368 4.43655 16.5001C4.43655 17.3285 5.10812 18.0001 5.93655 18.0001L8.99948 18.0002V20.0001H5.93655C4.00355 20.0001 2.43655 18.4331 2.43655 16.5001C2.43655 15.8857 2.59827 15.2822 2.90546 14.7501L3.93648 12.9635L1.77148 11.7142L7.30257 9.13407ZM13.7487 2.96901C14.2808 3.2762 14.7226 3.71803 15.0298 4.2501L16.0605 6.03551L18.226 4.78599L17.6949 10.8661L12.1638 8.28599L14.3285 7.03551L13.2978 5.2501C13.1661 5.02207 12.9768 4.83271 12.7487 4.70106C12.0313 4.28684 11.1139 4.53266 10.6997 5.2501L9.16818 7.90261L7.43615 6.90266L8.96764 4.2501C9.93414 2.57607 12.0747 2.00251 13.7487 2.96901Z"></path></svg>
+                                </div>
+                                <div class="rounded-full border p-2 w-8 bg-white dark:border-[#FFFFFF]">
+                                    <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.998 3V5C20.998 14.6274 15.6255 19 8.99805 19L5.24077 18.9999C5.0786 19.912 4.99805 20.907 4.99805 22H2.99805C2.99805 20.6373 3.11376 19.3997 3.34381 18.2682C3.1133 16.9741 2.99805 15.2176 2.99805 13C2.99805 7.47715 7.4752 3 12.998 3C14.998 3 16.998 4 20.998 3ZM12.998 5C8.57977 5 4.99805 8.58172 4.99805 13C4.99805 13.3624 5.00125 13.7111 5.00759 14.0459C6.26198 12.0684 8.09902 10.5048 10.5019 9.13176L11.4942 10.8682C8.6393 12.4996 6.74554 14.3535 5.77329 16.9998L8.99805 17C15.0132 17 18.8692 13.0269 18.9949 5.38766C17.6229 5.52113 16.3481 5.436 14.7754 5.20009C13.6243 5.02742 13.3988 5 12.998 5Z"></path></svg>     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[22rem] px-4 mx-auto bg-[#F7F7F7] dark:bg-[#525252] rounded-b-lg justify-betwee pb-4 gap-4">
+                    <button class="flex gap-1 items-center text-white text-xs bg-[#000000] p-4 rounded-full">Unlock <span class="font-bold">personnalized</span> plan.
+                        <svg class="w-4 h-4 ml-[7rem]" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const btn = document.getElementById("theme-toggle");
+        btn.addEventListener("click", function () {
+            document.body.classList.toggle("dark");
+        });
+    </script>
+</body>
+</html>
